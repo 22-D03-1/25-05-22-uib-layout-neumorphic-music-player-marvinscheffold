@@ -1,0 +1,15 @@
+.text-red {
+    color: #ff0900;
+}
+
+.text-grey {
+    color: #7e7e7f;
+}
+
+.text-bold {
+    font-weight: 900;
+}
+
+.text-medium {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script
+            defer
+            src="https://kit.fontawesome.com/1c9fbb0b73.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./text.css" />
+        <title>Music Player</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <button class="neomorph-inlay">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <span class="text-bold">My Playlist</span>
+                <button class="neomorph-inlay text-red">
+                    <i class="fa-solid fa-power-off"></i>
+                </button>
+            </header>
+            <section class="artwork">
+                <img
+                    src="https://images.unsplash.com/photo-1590621819878-3fa04495626c?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987"
+                />
+            </section>
+            <section class="song-title">
+                <span class="text-medium">Track #2</span>
+            </section>
+            <section class="artist-name">
+                <span class="text-medium text-grey text-bold">Artist</span>
+            </section>
+            <section class="progress">
+                <div class="progress-bar">
+                    <div class="progress-bar__filling"></div>
+                </div>
+            </section>
+            <section class="controls">
+                <button class="neomorph-outlay">
+                    <i class="fa-solid fa-backward"></i>
+                </button>
+                <button class="neomorph-inlay">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <button class="neomorph-outlay">
+                    <i class="fa-solid fa-forward"></i>
+                </button>
+            </section>
+            <footer>
+                <div class="footer-bar"></div>
+            </footer>
+        </main>
+    </body>
+</html>

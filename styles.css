@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Inter";
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e2e2;
+    height: 80%;
+    width: 100%;
+    max-width: 448px;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+@media (max-width: 448px) {
+    main {
+        height: 100%;
+        border-radius: unset;
+    }
+}
+
+.neomorph-inlay {
+    background: #e4e2e2;
+    box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+}
+
+.neomorph-outlay {
+    background: #e4e2e2;
+    box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+}
+
+button {
+    font-size: 2rem;
+}
+
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    height: 77px;
+    padding: 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    aspect-ratio: 1/1;
+}
+
+.artwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.artwork img {
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.song-title,
+.artist-name {
+    text-align: center;
+}
+
+.progress {
+    padding: 0 4rem;
+}
+
+.progress-bar {
+    height: 0.5rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.progress-bar__filling {
+}
+
+.controls {
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    height: 69px;
+    aspect-ratio: 1/1;
+}
+
+footer {
+    padding: 0 8rem 2rem 8rem;
+}
+
+.footer-bar {
+    height: 0.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: inset -7px 10px 4px -11px #000000;
+}
